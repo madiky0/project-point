@@ -1,0 +1,189 @@
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image: url(5458482101675483745.jpg);
+  margin: 0;
+  padding: 0;
+}
+.menu{
+  display: flex;
+  justify-content: center;
+  background-image: url(5208525914265217484\ \(4\).jpg);
+  padding: 30px;
+}
+.menu a {
+  margin: 20px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.menu a:hover{
+  text-decoration: underline;
+}
+.box{
+  text-align: center;
+  padding:   20px;
+  border-radius: 10px;
+justify-content: center;
+align-items: center;
+display: flex;
+height: 100vh;
+}
+.hero-section{
+background-image: url(5208525914265217484\ \(3\).jpg);
+
+  background-size: cover;
+  background-position: center;
+  height: 300pxpx;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  color: rgb(198, 211, 211);  
+  display: block;}
+  .hero-section a:hover{
+    background-color: #eff7f7;
+    display: flex;
+    justify-content: center;
+    
+    }
+    body{
+      background-image: url(https://img.freepik.com/premium-photo/a-white-wall-with-a-white-background-that-says-quot-the-word-quot-on-it_994023-371201.jpg);
+    }
+    
+    .overlay {
+        background: rgba(109, 99, 99, 0.5);
+        padding: 20px;
+        position: relative;
+        top: 20%;
+       left: 2%;
+        
+       text-align: center;
+      
+    
+    }
+     .hero-section h1 {
+        font-size: 4em;
+     }
+     .hero-section p {
+        font-size: 1.5em;
+        margin: 20px 0;
+     }
+     
+     
+
+
+
+.offers {
+  text-align: center;
+  padding: 20px;
+  color: rgb(175, 151, 151);
+}
+
+.offer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.offer-item {
+  background-color: #f8f2f3;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(154, 86, 86, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.offer-item:hover {
+  transform: scale(1.05);
+}
+
+.offer-item img {
+  width: 100%;
+  height: auto;
+}
+
+.details {
+  padding: 15px;
+}
+
+.details h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.details p {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #9c9999;
+}
+
+.best-deal {
+  color: rgb(181, 168, 168);
+  font-weight: bold;
+}
+.share-container {
+  position: relative;
+}
+
+.share-text {
+  margin-right: 10px;
+}
+
+.share-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.share-menu {
+  display: none;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.share-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.share-menu ul li {
+  padding: 10px 20px;
+}
+
+.share-menu ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.share-menu ul li:hover {
+  background-color: #444;
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .header {
+    font-size: 1.5em;
+  }
+
+  .menu {
+    display: block; 
+  }
+
+  
+  .btn {
+    width: 100%; 
+  }
+}
+

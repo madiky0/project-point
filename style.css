@@ -1,0 +1,347 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgba(244, 244, 244, 0.915);
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: rgb(11, 3, 3);
+}
+
+
+.menu-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.menu-text {
+  font-size: 18px;
+}
+
+
+.side-menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.side-menu .menu-content {
+  padding: 20px;
+  color: white;
+}
+
+.side-menu h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.side-menu p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.side-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.side-menu ul li {
+  margin: 15px 0;
+}
+
+.side-menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.side-menu ul li a:hover {
+  text-decoration: underline;
+}
+
+.side-menu .social-icons a {
+  margin-right: 10px;
+}
+
+.side-menu .search-box {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+}
+
+   
+
+  
+  
+  
+
+
+
+
+
+
+
+
+.menu{
+    display: flex;
+    justify-content: center;
+    background-image: url(5208525914265217484\ \(3\).jpg);
+    padding: 30px;
+}
+.menu a {
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(254, 252, 252);
+    font-weight: bold;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+.box{
+    text-align: center;
+    padding:   20px;
+    border-radius: 10px;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+ height: 100vh;
+}
+.hero-section{
+  background-image: url(5208525914265217484\ \(3\).jpg);
+
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    color: rgb(198, 211, 211);  
+    display: block;
+   
+}
+
+.hero-section a:hover{
+background-color: #eff7f7;
+display: flex;
+justify-content: center;
+
+}
+
+.overlay {
+    background: rgba(84, 81, 81, 0.5);
+    padding: 20px;
+    position: relative;
+    top: 20%;
+   left: 2%;
+    
+   text-align: center;
+  
+
+}
+ .hero-section h1 {
+    font-size: 4em;
+ }
+ .hero-section p {
+    font-size: 1.5em;
+    margin: 20px 0;
+ }
+ 
+ 
+
+
+
+ .share-container {
+  position: relative;
+}
+
+.share-text {
+  margin-right: 10px;
+}
+
+.share-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.share-menu {
+  display: none;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.share-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.share-menu ul li {
+  padding: 10px 20px;
+}
+
+.share-menu ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.share-menu ul li:hover {
+  background-color: #444;
+}
+.cards {
+  display: flex;
+  justify-content:center;
+ 
+  flex-wrap: wrap;
+  white-space: 30%;
+ align-items: center;
+ margin-bottom: 30px;
+
+ 
+
+}
+
+
+
+.card {
+  background-color: rgb(247, 253, 253);
+  border-radius: 0px;
+  padding: 50px;
+  box-shadow: 0 3px 5px rgba(148, 126, 126, 0.618);
+  width: 300px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 20px;
+
+}
+
+.card img {
+  width: 105%;
+  height: 50%;
+  border-radius: 0px;
+}
+
+.card h3 {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.card p {
+  margin: 10px 0;
+  color: #1a4d3b;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(201, 220, 217);
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(255, 251, 251, 0.1);
+  margin-top: 60px;
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+ 
+      .text-section{
+        max-width: 50%;
+      }
+      h1{
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+      p{
+        font-size: 1.1em;
+        line-height: 1.6 ;
+        margin-bottom: 20px;
+      }
+      .image-section{
+        display: flex;
+        gap: 10px;
+      }
+      .image-section img{
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+      .keep-reading {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #000;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    
+    .keep-reading:hover {
+        background-color: #333;
+    }
+      @media only screen and (max-width: 768px) {
+        .container {
+          flex-direction: column;
+          padding: 10px;
+        }
+      
+        .header {
+          font-size: 1.5em;
+        }
+      
+        .menu {
+          display: block; 
+        }
+      
+        
+        .btn {
+          width: 100%; 
+        }
+      }
+      
+      .tr {
+        margin-top: 6;
+      }
+   
+     
